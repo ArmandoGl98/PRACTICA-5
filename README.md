@@ -6,9 +6,13 @@ LA ESP32 SE UTILIZA COMO UNA TARJETA DE DATOS , AL CUAL SE LE ANEXARA UN SENSOR 
 ### MATERIAL NECESARIO 
 
 -WOKWI
+
 -TARJETA ESP 32
+
 -SENSOR DHT11
+
 -HC-SR04 Ultrasonic Distance Sensor
+
 -LCD 16x2 (I2C)
 
 #### INSTRUCCIONES
@@ -18,9 +22,7 @@ YA ESTANDO DENTRO DE LA PLATAFORMA WOKWI SE ANEXARA EL SIGUIENTE ALGORITMO:
 #define I2C_ADDR    0x27
 #define LCD_COLUMNS 20
 #define LCD_LINES   4
-
 DHTesp dhtSensor;
-
 const int Trigger = 4;   //Pin digital 2 para el Trigger del sensor
 const int Echo = 2;   //Pin digital 3 para el Echo del sensor
 const int DHT_PIN = 17;
