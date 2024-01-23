@@ -24,9 +24,6 @@ DHTesp dhtSensor;
 const int Trigger = 4;   //Pin digital 2 para el Trigger del sensor
 const int Echo = 2;   //Pin digital 3 para el Echo del sensor
 const int DHT_PIN = 17;
-
-
-
 LiquidCrystal_I2C lcd(I2C_ADDR, LCD_COLUMNS, LCD_LINES);
 
 void setup() {
@@ -98,3 +95,6 @@ void loop()
 ![](https://github.com/ArmandoGl98/PRACTICA-5/blob/main/Captura%20de%20pantalla%202024-01-22%20201215.png)
 
 ESTE ES EL RESULTADO FINAL DE ESTA PRACTICA :
+![](https://github.com/ArmandoGl98/PRACTICA-5/blob/main/Captura%20de%20pantalla%202024-01-22%20194635.png)
+![](https://github.com/ArmandoGl98/PRACTICA-5/blob/main/Captura%20de%20pantalla%202024-01-22%20194546.png)
+![](https://github.com/ArmandoGl98/PRACTICA-5/blob/main/Captura%20de%20pantalla%202024-01-22%20194532.png)
